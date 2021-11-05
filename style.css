@@ -3,3 +3,105 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+.app {
+    display: flex;
+    background-color: #D4A76A;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    background-color: #FFDBAA;
+    color: #553100;
+    font-size: xxx-large;
+    font-family: "Arial", serif;
+    font-variant-caps: all-petite-caps;
+    font-weight: bold;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.title_buttons {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.button_nav {
+    display: flex;
+    background-color: #805215;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-variant-caps: all-petite-caps;
+    font-weight: bold;
+}
+
+.button_nav:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.body {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    justify-items: flex-start;
+    padding: 1%;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 3%;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Arial", serif;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.button_body {
+    background-color: #805215;
+    margin-top: 5px;
+    height: 50px;
+    border-color: black;
+    border-width: 1px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.button_body:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Arial", serif;
+}
